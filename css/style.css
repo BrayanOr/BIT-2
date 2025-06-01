@@ -1,0 +1,62 @@
+.card {
+    margin-left: 3%;
+    box-shadow: 5px 5px 5px rgba(27, 255, 225, 0.836);
+    border-radius: 8px;
+}
+body {
+    background-color: black;
+}
+
+.allStudents {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imgBit {
+    width: 450px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: auto;
+   
+    
+}
+
+#root {
+  display: none;
+    margin-bottom: 15px;
+}
+#root:target {
+  display: block;
+}
+
+#root2 {
+  display: none;
+    margin-bottom: 15px;
+}
+#root2:target {
+  display: block;
+}
+
+#root3 {
+  display: none;
+    margin-bottom: 15px;
+}
+#root3:target {
+  display: block;
+}
+
+#table1 {
+  display: none;
+  margin-bottom: 15px;
+}
+#table1:target {
+  display: block;
+}
+
+@media screen and (max-width: 575px) {
+   
+    .card {
+        width: 33.33%;
+    }
+}
